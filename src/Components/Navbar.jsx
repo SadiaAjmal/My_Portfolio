@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
             <li className=" border-purple-500 focus:text-purple-600  hover:text-purple-600 hover:border-b-2  py-1 cursor-pointer">
               <Link to="process" smooth={true} offset={50} duaration={300}>
-                Processes
+                Process
               </Link>
             </li>
             <li className="border-purple-500 focus:text-purple-600   hover:border-b-2 py-1 hover:text-purple-600 cursor-pointer">

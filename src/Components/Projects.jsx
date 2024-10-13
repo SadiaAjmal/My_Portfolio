@@ -12,7 +12,7 @@ let project_info = [
     name: "E-Commerce Shopping app",
     category: "Development",
     description:
-      "Built a responsive E-commerce Shopping App with intuitive UI. Allows users to view categories and enjoy a smooth user experience.",
+      "Built a responsive E-commerce Shopping App. Allows users to view categories and enjoy a smooth user experience.",
   },
   {
     id: 2,

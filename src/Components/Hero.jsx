@@ -9,7 +9,7 @@ const Hero = () => {
         <div className=" basis-[48%] space-y-1 tracking-wider items-center justify-center flex-col">
           <p className="md:text-4xl text-3xl font-semibold ">Hello, I'm</p>
           <p className=" md:text-4xl text-3xl font-semibold ">Sadia Ajmal</p>
-          <p className=" pt-4">
+          <p className=" pt-4 ">
             I'm a Frontend Web Developer. I Strive to build beautiful and
             immersive web applications through carefully crafted code and
             user-centric design.
