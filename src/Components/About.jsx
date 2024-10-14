@@ -1,24 +1,15 @@
-
-  import React from "react";
+import React from "react";
 import my_img from "../assets/dpb.jpg";
 import { HiOutlineDownload } from "react-icons/hi";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
+import resume from "../assets/SadiaAjmal'sResume.pdf";
 
 
-const pdf_file = "http://localhost:5173/SadiaAjmal'sResume.pdf";
 
 const About = () => {
-  const downloadFile = (url) => {
-  
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", url.split("/").pop());
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
+
 
   return (
     <div className=" about mx-3 bg-white box-border  md:p-16 px-3 py-8 pb-16 rounded-lg mt-10 shadow-lg flex lg:flex-row flex-col-reverse items-center justify-between">
@@ -28,23 +19,21 @@ const About = () => {
         </p>
         <p>
           As a driven front-end developer, I'm excited to launch my career.
-          Proficient in HTML, CSS, JavaScript and React,  I'm
-          passionate about crafting user-friendly interfaces. Currently
-          exploring latest trends and best practices through online courses and
-          personal projects.
+          Proficient in HTML, CSS, JavaScript and React, I'm passionate about
+          crafting user-friendly interfaces. Currently exploring latest trends
+          and best practices through online courses and personal projects.
         </p>
         <p>
           Feel free to explore my portfolio, and let's connect to discuss
           potential opportunities{" "}
         </p>
         <div className=" flex items-center justify-center">
-          <button
-            onClick={() => downloadFile(pdf_file)}
-            className=" flex items-center gap-3 border-2 border-purple-500 text-custom-textclr px-6 mb-5 py-2 rounded-md hover:text-white hover:bg-box-bg focus:text-white focus:bg-box-bg"
-          >
-            <HiOutlineDownload className="w-6 h-6" />
-            Download CV
-          </button>
+          <a href={resume} download={resume}>
+            <button className=" flex items-center gap-3 border-2 border-purple-500 text-custom-textclr px-6 mb-5 py-2 rounded-md hover:text-white hover:bg-box-bg focus:text-white focus:bg-box-bg">
+              <HiOutlineDownload className="w-6 h-6" />
+              Download CV
+            </button>{" "}
+          </a>
         </div>
       </div>
 
@@ -94,3 +83,5 @@ const About = () => {
 };
 
 export default About;
+
+
