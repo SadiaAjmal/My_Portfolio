@@ -12,7 +12,9 @@ let project_info = [
     name: "E-Commerce Shopping app",
     category: "Development",
     description:
-      "Built a responsive E-commerce Shopping App. Allows users to view categories and enjoy a smooth user experience.",
+      "Built a responsive E-commerce Shopping App. Allows users to view products, search categories and enjoy a smooth user experience.",
+    link: "https://e-commerce-shopping-app-sadia.web.app/",
+    btnStatus: "View Project",
   },
   {
     id: 2,
@@ -21,21 +23,25 @@ let project_info = [
     category: "Development",
     description:
       "Built a user-friendly Weather App displaying real-time weather conditions and forecasts using external API integration.",
+    link: "https://main--weather-bys.netlify.app/",
+    btnStatus: "View Project",
   },
   {
     id: 3,
     image: dashbord,
-    name: "Dashboard",
+    name: "User Dashboard",
     category: "Development",
     description:
       "Designed an interactive Admin Dashboard for project oversight, tracking ongoing, completed, and cancelled projects.",
+    link: "#",
+    btnStatus: "Coming Soon",
   },
 ];
 
 const Projects = () => {
   return (
     <>
-      <div className="projects flex flex-col items-center gap-3 px-10 md:px-20 my-10">
+      <div className="projects flex flex-col  items-center gap-3 px-10 md:px-20 my-10">
         <p className="md:text-4xl text-3xl font-semibold">Projects</p>
         <p className="text-pText-clr w-96 text-center">
           Explore my recent projects, showcasing my skills in Frontend
@@ -51,12 +57,13 @@ const Projects = () => {
                 image={item.image}
                 description={item.description}
                 category={item.category}
+                link={item.link}
+                btnStatus={item.btnStatus}
               />
             );
           })}
         </div>
       </div>
-
     </>
   );
 };

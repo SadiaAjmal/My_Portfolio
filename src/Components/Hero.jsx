@@ -4,8 +4,8 @@ import About from "../Components/About";
 
 const Hero = () => {
   return (
-    <div className="hero justify-center flex md:h-[110vh] lg:h-[150vh] h-[190vh] bg-custom-bg px-3 py-5 lg:px-40 md:px-20 ">
-      <div className=" relative md:flex  pt-40  justify-between">
+    <div className="hero justify-center flex md:h-[110vh] lg:h-[150vh] h-[140vh] bg-custom-bg px-3 md:py-5 lg:px-40 md:px-20 ">
+      <div className=" relative md:flex  md:pt-40 pt-24  justify-between">
         <div className=" basis-[48%] space-y-1 tracking-wider items-center justify-center flex-col">
           <p className="md:text-4xl text-3xl font-semibold ">Hello, I'm</p>
           <p className=" md:text-4xl text-3xl font-semibold ">Sadia Ajmal</p>
@@ -32,7 +32,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="lg:px-20 absolute lg:bottom-[-60%] md:bottom-[-20%] bottom-[-115%]">
+      <div className="lg:px-20 absolute lg:bottom-[-60%] md:bottom-[-20%] bottom-[-60%]">
         <About />
       </div>
     </div>

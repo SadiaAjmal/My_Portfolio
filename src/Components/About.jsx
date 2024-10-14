@@ -21,7 +21,7 @@ const About = () => {
   };
 
   return (
-    <div className=" about  bg-white box-border  md:p-16 p-8 pb-16 rounded-lg mt-10 shadow-lg flex lg:flex-row flex-col-reverse items-center justify-between">
+    <div className=" about mx-3 bg-white box-border  md:p-16 px-3 py-8 pb-16 rounded-lg mt-10 shadow-lg flex lg:flex-row flex-col-reverse items-center justify-between">
       <div className=" order-2 basis-[58%] lg:space-y-5 space-y-3">
         <p className=" md:text-4xl text-3xl font-semibold ">
           I'm Frontend Web Developer.
