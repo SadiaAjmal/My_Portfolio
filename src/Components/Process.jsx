@@ -6,7 +6,7 @@ import { CiDesktop } from "react-icons/ci";
 
 const Process = () => {
   return (
-    <div className=" process lg:flex justify-between pt-60 md:pt-40 px-3 py-10 lg:px-40 md:px-20 bg-process-bg  space-y-5">
+    <div className=" process lg:flex justify-between pt-40 md:pt-40 px-3 py-10 lg:px-40 md:px-20 bg-process-bg  space-y-5">
       <div className="  basis-[46%] flex flex-col justify-center gap-5">
         <p className=" md:text-4xl text-3xl font-semibold ">Work Process</p>
         <p>
