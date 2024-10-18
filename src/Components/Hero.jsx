@@ -32,7 +32,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="hero-about lg:px-20 absolute md:bottom-[-20%] bottom-[-120%] lg:bottom-[-60%]">
+      <div className="hero-about lg:px-20 absolute md:bottom-[-20%] bottom-[-120%] lg:bottom-[-70%]">
         <About />
       </div>
     </div>
