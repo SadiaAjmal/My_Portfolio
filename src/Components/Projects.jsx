@@ -43,7 +43,7 @@ const Projects = () => {
     <>
       <div className="projects flex flex-col  items-center gap-3 px-10 md:px-20 my-10">
         <p className="md:text-4xl text-3xl font-semibold">Projects</p>
-        <p className="text-pText-clr w-96 text-center">
+        <p className="text-pText-clr px-8 w-96 text-center">
           Explore my recent projects, showcasing my skills in Frontend
           Development
         </p>

@@ -18,22 +18,38 @@ const Navbar = () => {
   return (
     <div>
       <nav className=" lg:px-40 md:px-10 px-3 py-3 bg-white flex items-center justify-between fixed top-0 z-10 w-full">
-        <div className=" flex md:gap-3 gap-1 items-center justify-center">
-          <div className="flex items-center justify-center font-semibold w-10 h-10 bg-box-bg rounded-full text-white">
-            S
+        <Link
+          to="hero"
+          activeClass="text-purple-500 font-semibold"
+          smooth={true}
+          offset={0}
+          duaration={300}
+        >
+          <div className=" flex md:gap-3 gap-1 items-center justify-center cursor-pointer">
+            <div className="flex items-center justify-center font-semibold w-10 h-10 bg-box-bg rounded-full text-white">
+              S
+            </div>
+            <p className=" text-2xl  font-semibold tracking-wide">
+              SADIA AJMAL
+            </p>
           </div>
-          <p className=" text-2xl  font-semibold tracking-wide">SADIA AJMAL</p>
-        </div>
+        </Link>
 
         <div className=" flex items-center ">
           <ul className="md:flex lg:gap-10 gap-3 items-center justify-center hidden">
             <li className="border-purple-500 hover:text-purple-600 hover:border-b-2 py-1 cursor-pointer">
-              <Link to="hero" activeClass="text-purple-500 font-semibold" smooth={true} offset={0} duaration={300}>
+              <Link
+                to="hero"
+                activeClass="text-purple-500 font-semibold"
+                smooth={true}
+                offset={0}
+                duaration={300}
+              >
                 Home
               </Link>
             </li>
             <li className=" border-purple-500 focus:text-purple-600  hover:text-purple-600 hover:border-b-2  py-1 cursor-pointer">
-              <Link  to="about" smooth={true} offset={-130} duaration={300}>
+              <Link to="about" smooth={true} offset={-130} duaration={300}>
                 About
               </Link>
             </li>
@@ -95,13 +111,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="py-1 focus:text-purple-600 cursor-pointer">
-              <Link
-                to="contact"
-                smooth={true}
-                offset={-50}
-                duaration={300}
-              >
-              Contact
+              <Link to="contact" smooth={true} offset={-50} duaration={300}>
+                Contact
               </Link>
             </li>
           </ul>
