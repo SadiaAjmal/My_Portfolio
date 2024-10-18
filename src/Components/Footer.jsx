@@ -27,12 +27,36 @@ const Footer = () => {
 
       <div className=" h-10 flex items-center ">
         <ul className="lg:flex lg:gap-10 gap-3 items-center justify-center hidden">
-          <li className=" py-1 cursor-pointer">Home</li>
-          <li className=" py-1 cursor-pointer">About</li>
-          <li className="  py-1 cursor-pointer">Process</li>
-          <li className=" py-1 cursor-pointer">Projects</li>
-          <li className=" py-1 cursor-pointer">Services</li>
-          <li className=" py-1 cursor-pointer">Contact</li>
+            <li className=" focus:text-purple-600 pb-2 cursor-pointer">
+              <Link to="hero" smooth={true} offset={0} duaration={300}>
+                Home
+              </Link>
+            </li>
+            <li className=" pb-2 focus:text-purple-600  cursor-pointer">
+              <Link to="about" smooth={true} offset={-60} duaration={300}>
+                About
+              </Link>
+            </li>
+            <li className="focus:text-purple-600  py-1 cursor-pointer">
+              <Link to="process" smooth={true} offset={150} duaration={300}>
+                Process
+              </Link>
+            </li>
+            <li className="py-1 focus:text-purple-600 cursor-pointer">
+              <Link to="projects" smooth={true} offset={-100} duaration={300}>
+                Projects
+              </Link>
+            </li>
+            <li className="py-1 focus:text-purple-600 cursor-pointer">
+              <Link to="services" smooth={true} offset={-50} duaration={300}>
+                Services
+              </Link>
+            </li>
+            <li className="py-1 focus:text-purple-600 cursor-pointer">
+              <Link to="contact" smooth={true} offset={-50} duaration={300}>
+                Contact
+              </Link>
+            </li>
         </ul>
       </div>
       <div className=" h-10 flex items-center">

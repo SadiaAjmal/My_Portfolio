@@ -49,10 +49,10 @@ body {
 
 @media only screen and (min-width: 415px) and (max-width: 430px) {
     .hero {
-        height: 145vh;
+        height: 170vh;
     }
     .hero-about {
-        bottom: -60%;
+        bottom: -95%;
     }
 }
 
