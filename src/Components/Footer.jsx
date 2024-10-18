@@ -9,7 +9,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className=" h-48 text-white lg:px-40 md:px-10 px-3 py-3 pt-[10%] bg-block-bg flex items-end justify-between bottom-0 w-full">
+    <div className=" h-48 text-white lg:px-34 xl:px-40  md:px-10 px-3 py-3 pt-[10%] bg-block-bg flex items-end justify-between bottom-0 w-full">
       <Link
         to="hero"
         activeClass="text-purple-500 font-semibold"

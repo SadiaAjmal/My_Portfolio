@@ -39,7 +39,7 @@ function Contact() {
   };
 
   return (
-    <div className=" contact px-3 lg:px-40 md:px-20 flex items-center justify-center bg-custom-bg h-[115vh] md:h-[85vh] lg:h-[85vh] relative">
+    <div className=" contact px-3 lg:px-34 xl:px-40  md:px-20 flex items-center justify-center bg-custom-bg h-[115vh] md:h-[85vh] lg:h-[85vh] relative">
       <div className=" contact-card top-3 lg:bottom-[-20%] bottom-[-10%] box-border md:p-16 p-5 rounded-lg mt-5 shadow-lg bg-white absolute bg-contact-bg mx-3 md:mx-20 my-5 lg:flex justify-between ">
         <div className="  basis-[48%] space-y-3 mb-10">
           <div className="flex  items-center">

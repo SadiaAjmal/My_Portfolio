@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="services lg:flex justify-between items-center px-3 lg:h-screen py-10 lg:px-40 md:px-20 bg-process-bg space-y-5">
+    <div className="services lg:flex justify-between items-center px-3 lg:h-screen py-10 lg:px-34 xl:px-40  md:px-20 bg-process-bg space-y-5">
       <div className="basis-[46%] flex flex-col justify-center gap-3">
         <p className="md:text-4xl text-3xl font-semibold">What I do?</p>
         <p>

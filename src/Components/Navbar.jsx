@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className=" lg:px-40 md:px-10 px-3 py-3 bg-white flex items-center justify-between fixed top-0 z-10 w-full">
+      <nav className=" lg:px-34 xl:px-40 md:px-10 px-3 py-3 bg-white flex items-center justify-between fixed top-0 z-10 w-full">
         <Link
           to="hero"
           activeClass="text-purple-500 font-semibold"
