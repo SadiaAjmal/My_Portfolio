@@ -81,7 +81,7 @@ const Navbar = () => {
 
         <div className=" px-3 md:hidden block">
           <ul
-            className={` h-screen bg-custom-bg text-center duration-500  space-y-10 w-[60%] shadow-lg  fixed mt-12 ${
+            className={` h-screen bg-custom-bg text-center duration-500  space-y-10 w-[70%] shadow-lg  fixed mt-12 ${
               toggle ? "right-[0]" : "right-[-100%]"
             }`}
           >
