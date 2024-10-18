@@ -13,7 +13,7 @@ const DiscussionBlock = () => {
           Let's discuss your project!
         </p>
       </div>
-      <p className=" px-3 w-96 text-center">
+      <p className=" px-10 w-96  text-center">
         Ready to materialize your project concept into a captivating digital
         experience.
       </p>

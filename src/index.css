@@ -11,25 +11,27 @@
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.05em;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-height:760px) {
     .hero {
-        height: 160vh;
+        height: 180vh;
     }
     .hero-about {
-        bottom: -80%;
+        bottom: -100%;
     }
     .card {
         width: 295px;
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) and (min-height: 667px) and (max-height: 800px) {
+@media only screen and (min-width: 321px) and (max-width: 375px) and (max-height: 760px) {
     .hero {
         height: 175vh;
     }
@@ -38,29 +40,47 @@ body {
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 414px) {
+@media only screen and (min-width: 376px) and (max-width: 414px) and (max-height: 760px) {
     .hero {
         height: 175vh;
     }
     .hero-about {
-        bottom: -105%;
+        bottom: -95%;
     }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 430px) {
+@media only screen and (min-width: 415px) and (max-width: 430px) and (max-height: 760px) {
     .hero {
         height: 170vh;
     }
     .hero-about {
-        bottom: -95%;
+        bottom: -93%;
     }
 }
 
-@media only screen and (width: 375px) and (height: 667px) {
+@media only screen and (min-width: 431px) and (max-width: 515px) and (max-height: 760px) {
     .hero {
-        height: 200vh;
+        height: 165vh;
     }
     .hero-about {
-        bottom: -125%;
+        bottom: -88%;
+    }
+}
+
+@media only screen and (min-width: 516px) and (max-width: 630px) and (max-height: 760px) {
+    .hero {
+        height: 155vh;
+    }
+    .hero-about {
+        bottom: -78%;
+    }
+}
+
+@media only screen and (min-width: 631px) and (max-width: 730px) and (max-height: 760px) {
+    .hero {
+        height: 155vh;
+    }
+    .hero-about {
+        bottom: -78%;
     }
 }
