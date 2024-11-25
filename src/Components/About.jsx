@@ -8,14 +8,15 @@ import resume from "../assets/SadiaAjmal'sResume.pdf";
 
 const About = () => {
   return (
-    <div className=" lg:mx-0 mx-3  md:mx-10 about bg-white box-border  md:p-16 px-3 py-8 pb-16 rounded-lg mt-10 shadow-lg flex lg:flex-row flex-col-reverse items-center justify-between">
+<div className=" h-0">
+    <div className=" z-[2] md:top-[85%] sm:top-[90%] absolute lg:px-20 lg:mx-40 mx-3  md:mx-10 about bg-white box-border  md:p-16 px-3 py-8 pb-16 rounded-lg mt-10 shadow-lg flex lg:flex-row flex-col-reverse items-center justify-between">
       <div className=" order-2 basis-[58%] lg:space-y-5 space-y-3">
         <p className=" md:text-4xl text-3xl font-semibold ">
           I'm Frontend Web Developer.
         </p>
         <p>
           As a driven front-end developer, I'm excited to launch my career.
-          Proficient in HTML, CSS, JavaScript and React, I'm passionate about
+          Proficient in HTML, CSS, JavaScript and React Js, I'm passionate about
           crafting user-friendly interfaces. Currently exploring latest trends
           and best practices through online courses and personal projects.
         </p>
@@ -27,7 +28,7 @@ const About = () => {
           <a href={resume} download={resume}>
             <button className=" flex items-center gap-3 border-2 border-purple-500 text-custom-textclr px-6 mb-5 py-2 rounded-md hover:text-white hover:bg-box-bg focus:text-white focus:bg-box-bg">
               <HiOutlineDownload className="w-6 h-6" />
-              Download CV
+              Download Resume
             </button>{" "}
           </a>
         </div>
@@ -76,6 +77,7 @@ const About = () => {
         </div>
       </div>
     </div>
+</div>
   );
 };
 

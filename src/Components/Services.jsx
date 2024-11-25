@@ -6,7 +6,7 @@ const Services = () => {
       <div className="basis-[46%] flex flex-col justify-center gap-3">
         <p className="md:text-4xl text-3xl font-semibold">What I do?</p>
         <p>
-          I develop responsive web interfaces using React, Next.js, Tailwind,
+          I develop responsive web interfaces using React Js, Next Js, Tailwind,
           and other front-end technologies to deliver seamless user experiences.
         </p>
         <div className="flex justify-center md:justify-start">
@@ -23,7 +23,7 @@ const Services = () => {
         <div className=" space-y-3 bg-white rounded-lg p-5 shadow-lg focus:scale-105 hover:scale-105">
           <p className=" font-semibold">Languages</p>
           <p className=" text-sm">
-            Expert in HTML, CSS, JavaScript, and React. Building dynamic,
+            Expert in HTML, CSS, JavaScript, and React Js. Building dynamic,
             interactive web applications. Delivering efficient, user-friendly
             interfaces.
           </p>
@@ -32,7 +32,7 @@ const Services = () => {
         <div className=" space-y-3 bg-white rounded-lg p-5 shadow-lg  focus:scale-105 hover:scale-105">
           <p className=" font-semibold">Design & Styling</p>
           <p className=" text-sm">
-            Utilizing CSS3, Tailwind, Bootstrap, Chakra UI, and Sass. Crafting
+            Utilizing CSS, Tailwind, Bootstrap, Chakra UI, and Sass. Crafting
             responsive, visually stunning designs. Enhancing user experience
             through intuitive styling.
           </p>
